@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Running hydration</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Running hydration">
+  <meta name="author" content="A runner">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Running hydration</h1>
+    <h2>A tool for predicting hydration level and suggested water intake for a race</h2>
+    <p>A runner<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Many runners think almost exclusively in terms of a pacing strategy for
+a given distance</li>
+<li>Water intake can get left to chance, with the risk of taking in too much
+at the start, or before, the race, or drinking too little on a long race</li>
+<li>The better idea a runner has of how much water he/she loses over the race,
+the better they can plan on taking in just the right amount</li>
+<li>Here we introduce a new, scientific(ish) interactive app for visualizing 
+water loss during a run</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How much do you lose?</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Cannot easily measure your volume before and after!</li>
+<li>Weight as a proxy (1 kg equivalent to 1000 ml water)</li>
+<li>Can weigh before and after</li>
+<li>Other factors might influence water loss
+
+<ul>
+<li>temperature</li>
+<li>humidity</li>
+<li>pace</li>
+<li>age</li>
+<li>sex</li>
+</ul></li>
+<li>Therefore gather data recording variety of variables and weight before/after run</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Weight (water) loss with run distance</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+<p>Rate of water loss is approximately 50 ml/km.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Introducing the brand new shiny app for predicting water loss</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Based on (0.05) decades of extensive data gathering (well, 16 of my own runs)
+we have carefully calculated an average rate of water loss of 50 ml/km.</p>
+
+<p>The brand new <a href="https://itmustbebunnies.shinyapps.io/shinyapp">app</a> currently:</p>
+
+<ul>
+<li>supports the visualization of predicted water loss during a race </li>
+<li>gives at least some idea of how much water is enough</li>
+<li>allows you to adjust the water stops you make to see how dehydrated you might become if
+you don&#39;t stop</li>
+<li>allows you to see what your maximum dehydration could be</li>
+</ul>
+
+<p>Future enhancements could include tailored predictions based on sex, age, weather conditions etc.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='How much do you lose?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Weight (water) loss with run distance'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Introducing the brand new shiny app for predicting water loss'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
